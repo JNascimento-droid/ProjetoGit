@@ -13,9 +13,10 @@
 -git branch -M *renomea a branch principal*
 -git remote add origin *faz a conexão do repositório atual com o do github*
 --obs.. **origin não é um comando e sim um nome para o repositório.**
--git checkout -b "novo-botão" *cria uma nova branch chamada novo-botão*
+-git checkout -b "novo-botão" *cria uma nova branch chamada novo-botão e chama essa branch*
 --git checkout -f branch
 **Ao mudar de ramo, continue mesmo que o índice ou a árvore de trabalho seja diferente do HEAD. Isso é usado para descartar as alterações locais.**
+--git checkout main *retorna para brach main(ou o nome que foi dado a ela)*
 
 **Ao fazer check-out de caminhos do índice, não falhe nas entradas não mescladas; em vez disso, as entradas não mescladas são ignoradas.**
 
